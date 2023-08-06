@@ -36,7 +36,7 @@ class WPChatAnalyse:
 
         # placing bg image
         img_bg = Image.open(
-            r"C:\Users\divya.LAPTOP-0B1GN7G7\PycharmProjects\WhatsappChatAnalyser\background_image.jpg")
+            r"background_image.jpg")
         img_bg = img_bg.resize((1920, 1080), Image.ANTIALIAS)
         self.photoimg_bg = ImageTk.PhotoImage(img_bg)
         bg_lbl = Label(self.root, image=self.photoimg_bg)
